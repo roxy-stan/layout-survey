@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Layout survey</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Layout survey">
+    <meta name="keywords" content="HTML,CSS">
+    <meta name="author" content="Roxi Stan">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="30">
+
+    <link rel="stylesheet" type="text/CSS" href="resources/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="wrapper">
+        <div class="img-title-page1">
+            <img src="assets/step-1.png" alt="step-1">
+            <span>Notification Survey</span>
+        </div>
+
+<div class="container">
+    <div class="container-content">
+
+    <p>We're working on our nortification system to make our product work better.</p>
+    <p>The survey consist in several questions and usually takes 5-7 minutes to complete.</p>
+
+
+<form>
+
+    <div class="email"><label for="emailInput">Enter your email:</label>
+        <div class="input-wrapper">
+    <input required class="input-validation" type="email" id="emailInput" placeholder="Your answer"/>
+    </div>
+    </div>
+
+    <div class="question-one">
+    <div>Are you an admin or a member on your Board?</div>
+
+        <div><input type="radio" id="adminInput" name="tech" value="admin">
+        <label for="adminInput">Admin</label></div>
+
+        <input type="radio" id="memberInput" name="tech" value="member">
+        <label for="memberInput">Member</label>
+
+    </div>
+
+    <div class="question-two">
+    <div>How do you collaborate in our Board?</div>
+   
+        <div><input type="radio" id="createInput" name="tech" value="create">
+        <label for="createInput">Create and edit content</label></div>
+
+        <input type="radio" id="commentInput" name="tech" value="comment">
+        <label for="commentInput">Comment and leave commnent</label>
+
+        <div><input type="radio" id="reviewInput" name="tech" value="review">
+        <label for="reviewInput">Just review created comment</label></div>
+
+        <input type="radio" id="otherInput" name="tech" value="other">
+        <label for="otherInput">Other:</label>
+        <input class="space-for-other" type="text"/>
+    </div>
+
+</form>
+
+
+</div>
+</div>
+
+    <div class="button-page1">
+        <button type="text"><a href="page2.html">Next</button></a>
+    </div>
+
+</div>
+
+
+</body>
+</html>
