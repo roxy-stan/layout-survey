@@ -1,0 +1,221 @@
+html {
+    height: 100%;
+    margin: 0;
+    background-color: #D0D0D0;
+}
+
+* {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.img-title-page1,
+.img-title-page2 {
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.img-title-page1 img,
+.img-title-page2 img,
+.faces img {
+    width: auto;
+    height: 100%;
+}
+
+.wrapper span {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    background-color:  #D0D0D0;
+    padding: 8px 50px;
+    margin-top: 60px
+}
+
+.container {
+    width: 900px;
+    min-height: 550px;
+    margin: 20px auto 20px auto;
+    background-color: #fff;
+}
+
+
+.container-content {
+    padding-top: 40px;
+    margin-left: 50px;
+    font-size: 14px;
+}
+
+.container-content p {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+.container-content .email{
+    padding: 20px 0px;
+}
+
+.input-wrapper {
+    margin-top: 20px;
+}
+
+
+.input-wrapper input {
+    width: 400px;
+    height: 30px;
+    padding-left: 10px;
+    border: 2px solid #D0D0D0;
+    margin-top: -10px;;
+}
+
+.input-wrapper input::placeholder {
+    color: #D0D0D0;
+    text-align: left;
+}
+
+.input-validation:required:invalid {
+    background-image: linear-gradient(to right, #999 , #fff);
+}
+
+
+
+.question-one,
+.question-two{
+    padding: 10px 0px;
+    line-height: 30px;
+}
+
+input, label {
+  vertical-align: middle;
+}
+
+
+.space-for-other {
+    width: 300px;
+    margin-left: 10px;
+    border: transparent;
+    border-bottom: 1px solid #afafaf ;
+}
+
+
+.question-three-square div{
+    width: 40px;
+    height: 40px;
+    background-color: #afafaf;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.question-three-square,
+.question-three-text{
+    width: 350px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 10px; 
+    line-height: 30px; 
+}
+
+.question-three-text {
+    padding-bottom: 25px;
+}
+
+
+.question-three-square div:nth-of-type(3),
+.question-five-faces div:nth-child(2) {
+    background-color: #38daa1; 
+}
+
+
+.question-four {
+    height: 80px;
+    width: 410px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 12px;
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+
+.question-four label {
+    padding-right: 17px;
+}
+
+
+.question-five-faces {
+    width: 450px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px; 
+    padding-bottom: 20px;
+}
+
+
+.faces {
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #afafaf;
+    padding: 10px 10px;
+}
+
+.question-five-text {
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.question-five-text div:first-child,
+.question-five-text div:nth-child(2) {
+    width: 100px;
+}
+
+
+.question-five-text div:nth-child(2) {
+    text-align: right;
+}
+
+
+
+
+button {
+    border-radius: 12px;
+    color: #fff;
+    border: none;
+    background-color: #38daa1;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 8px 30px;
+}
+
+button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.button-page1 {
+    display: flex;
+    justify-content: center;
+    margin: 30px auto;
+}
+
+.button-page2 {
+    width: 900px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-page2 button:first-child {
+    background-color: #afafaf;
+}
+
