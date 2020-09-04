@@ -8,6 +8,7 @@ html {
     font-family: 'Noto Sans JP', sans-serif;
 }
 
+/* pentru setul asta de reguli comune puteai sa folosesti o clasa dedicata, de exemplu "general-img-title-page" si sa pastrezi clasele existente pt ce e specific */
 .img-title-page1,
 .img-title-page2 {
     height: 160px;
