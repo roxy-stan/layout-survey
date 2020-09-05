@@ -14,7 +14,7 @@
 </head>
 <body>
 <div class="wrapper">
-        <div class="img-title-page1">
+        <div class="general-img-title-page">
             <img src="assets/step-1.png" alt="step-1">
             <span>Notification Survey</span>
         </div>
@@ -39,10 +39,10 @@
     <div>Are you an admin or a member on your Board?</div>
 
     <!-- atributul name pe care il folosesti trebuie sa fie specific, de exemplu "role", tech nu isi are sensul aici -->
-        <div><input type="radio" id="adminInput" name="tech" value="admin">
+        <div><input type="radio" id="adminInput" name="role" value="admin">
         <label for="adminInput">Admin</label></div>
 
-        <input type="radio" id="memberInput" name="tech" value="member">
+        <input type="radio" id="memberInput" name="role" value="member">
         <label for="memberInput">Member</label>
 
     </div>
@@ -51,16 +51,16 @@
     <div>How do you collaborate in our Board?</div>
    
     <!-- de asemenea nu poate avea acelasi nume ca mai sus pentru ca nu fac parte din acelasi grup. Un exemplu de nume sugestiv "collaboration_type" -->
-        <div><input type="radio" id="createInput" name="tech" value="create">
+        <div><input type="radio" id="createInput" name="collaboration_type" value="create">
         <label for="createInput">Create and edit content</label></div>
 
-        <input type="radio" id="commentInput" name="tech" value="comment">
+        <input type="radio" id="commentInput" name="collaboration_type" value="comment">
         <label for="commentInput">Comment and leave commnent</label>
 
-        <div><input type="radio" id="reviewInput" name="tech" value="review">
+        <div><input type="radio" id="reviewInput" name="collaboration_type" value="review">
         <label for="reviewInput">Just review created comment</label></div>
 
-        <input type="radio" id="otherInput" name="tech" value="other">
+        <input type="radio" id="otherInput" name="collaboration_type" value="other">
         <label for="otherInput">Other:</label>
         <input class="space-for-other" type="text"/>
     </div>
