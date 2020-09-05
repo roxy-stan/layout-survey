@@ -9,16 +9,15 @@ html {
 }
 
 /* pentru setul asta de reguli comune puteai sa folosesti o clasa dedicata, de exemplu "general-img-title-page" si sa pastrezi clasele existente pt ce e specific */
-.img-title-page1,
-.img-title-page2 {
+.general-img-title-page {
     height: 160px;
     display: flex;
     justify-content: center;
     margin-top: 40px;
 }
 
-.img-title-page1 img,
-.img-title-page2 img,
+
+.general-img-title-page img,
 .faces img {
     width: auto;
     height: 100%;
